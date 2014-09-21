@@ -3,7 +3,7 @@
 import sys
 import os
 
-DEBUG = True
+DEBUG = os.environ.get('DEBUG', False)
 
 #print sys.path
 #print os.get_cwd()

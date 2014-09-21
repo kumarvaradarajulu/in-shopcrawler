@@ -3,5 +3,8 @@
 import sys
 import os
 
-print sys.path
-print os.get_cwd()
+#print sys.path
+#print os.get_cwd()
+
+def crawler():
+    pass
